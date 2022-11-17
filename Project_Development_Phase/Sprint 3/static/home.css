@@ -5,7 +5,7 @@
 .container{
 	height: 100vh;
 	width: 100%;
-	background-image: url(background.png);
+	background-image: url(background.jpeg);
 	background-position: center;
 	background-size: cover;
 	padding-left: 5%;
@@ -49,6 +49,9 @@ nav ul li a{
 	color: #232d60;
 	
 }
+.mono{
+	font-family: 'Courier New', Courier, monospace;
+}
 .content p{
 	font-size: 20px;
 	color: #6a7199;
@@ -60,14 +63,17 @@ nav ul li a{
 }
 .content .btn{
 	display: inline-block;
-	background: linear-gradient(45deg, #87adfe, #ff77cd);
+	background: linear-gradient(45deg, #DDD, #FFF);
+	border-color: #333;
+	border-width: 2px;
 	border-radius: 6px;
 	padding: 10px 20px;
 	box-sizing: border-box;
 	text-decoration: none;
 	box-shadow: 3px 8px 22px rgba(94,28,68,0.15);
-	color:rgb(6, 2, 255);
+	color:rgb(38, 38, 44);
 	font-weight: bold;
+	font-family:'Courier New', Courier, monospace;
 
 }
 .arrow-icons{

@@ -13,12 +13,6 @@ def home():
 @app.route('/login.html')
 def login():
     return render_template('login.html')
-@app.route('/procedure.html')
-def procedure():
-    return render_template('procedure.html')
-@app.route('/bank login.html')
-def bank():
-    return render_template('bank login.html')
 @app.route('/About.html')
 def about():
     return render_template('About.html')

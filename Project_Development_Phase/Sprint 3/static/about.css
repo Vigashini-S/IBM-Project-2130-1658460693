@@ -14,16 +14,19 @@
 .about-right ul li{
     display: flex;
     align-items: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 .about-right h1{
     color: #e74d06;
     font-size: 37px;
     margin-bottom: 5px;
+    font-family: 'Courier New', Courier, monospace;
 }
 .about-right p{
     color: #444;
     line-height: 26px;
     font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
 }
 .about-right .address{
     margin: 25px 0;
@@ -53,16 +56,11 @@
     color: #e74d06;
 }
 h3{
-    color: #e74d06;    
+    color: #e74d06;   
+    font-family: 'Courier New', Courier, monospace; 
 
 }
 .but{
-    background-color:#e74d06;
-    color: white;
-    padding: 5x;
     margin:5px;
-    border-radius: 5px;
-    width:70px;
-    font-weight: bold;
-
+    width:100px;
 }
